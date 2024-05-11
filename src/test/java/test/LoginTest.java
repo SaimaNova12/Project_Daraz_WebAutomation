@@ -2,42 +2,48 @@ package test;
 
 import java.io.IOException;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 
 import drivers.BaseDriver;
 import drivers.PageDriver;
 import pages.LoginPage;
 import utility.Dataset;
+import utility.ExtentFactory;
 
 
 public class LoginTest extends BaseDriver{
+	
+	ExtentReports report;
+	ExtentTest parentTest;
+	ExtentTest childTest;
+
      
 	   @BeforeClass
 	   public void openUrl() {
+		   report = ExtentFactory.getInstance();
+		   parentTest = report.createTest("<p style=\"color:#FF6000; font-size:20px\"><b>Login Test</b></p>");
 		   PageDriver.getCurrentDriver().manage().window().maximize(); 
 	       PageDriver.getCurrentDriver().get(url);
-}
-	   
-	  /* public void loginwithvalid() throws InterruptedException, IOException{
-		   LoginPage th = new LoginPage();
-		   th.login("01644417057", "saima34");
-	   }
-	   
-	   @Test(priority=2)
-	   public void LoginwithInvalid1() throws InterruptedException, IOException{
-		   LoginPage th = new LoginPage();
-		   th.login("01644417050", "saima34");
-	   }*/
+	 	  
+	 	   }
+
 	   
 	   @Test(priority = 1,dataProvider = "invaliddata", dataProviderClass = Dataset.class)
 	   public void LoginwithInvalid2(String username, String password) throws InterruptedException, IOException{
-		   LoginPage th = new LoginPage();
-		   th.login(username, password);
+		   childTest = parentTest.createNode("<p style = \"color:#3E96E7; font-size:20px\">LOGIN TEST</p>");
+		   LoginPage th = new LoginPage(childTest);
+		   th.login(username,password);
+
 	   } 
-	  /* @Test(priority=1, dataProvider = "invaliddatafromexcel", dataProviderClass = Dataset.class)
-	   public void LoginwithInvalid3(String username, String password) throws InterruptedException, IOException{
-		   LoginPage th = new LoginPage();
-		   th.login(username, password);
-	   }*/
+	    @AfterClass
+	    public void afterClass() {
+	        report.flush();
+	    }
+
+	   
 }

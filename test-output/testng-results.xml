@@ -1,33 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-11T15:49:03 BDT" name="Suite" finished-at="2024-05-11T15:50:52 BDT" duration-ms="109494">
+  <suite started-at="2024-05-11T23:40:19 BDT" name="Suite" finished-at="2024-05-11T23:43:40 BDT" duration-ms="201440">
     <groups>
     </groups>
-    <test started-at="2024-05-11T15:49:03 BDT" name="LoginTest" finished-at="2024-05-11T15:49:51 BDT" duration-ms="48334">
+    <test started-at="2024-05-11T23:40:19 BDT" name="LoginTest" finished-at="2024-05-11T23:41:47 BDT" duration-ms="88307">
       <class name="test.LoginTest">
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:test.LoginTest@10e31a9a]" started-at="2024-05-11T15:49:03 BDT" name="openUrl" finished-at="2024-05-11T15:49:11 BDT" duration-ms="8645" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:test.LoginTest@4550bb58]" started-at="2024-05-11T23:40:19 BDT" name="openUrl" finished-at="2024-05-11T23:40:33 BDT" duration-ms="14412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="LoginwithInvalid2(java.lang.String,java.lang.String)[pri:1, instance:test.LoginTest@10e31a9a]" started-at="2024-05-11T15:49:11 BDT" name="LoginwithInvalid2" data-provider="invaliddata" finished-at="2024-05-11T15:49:23 BDT" duration-ms="11341" status="PASS">
+        <test-method signature="LoginwithInvalid2(java.lang.String,java.lang.String)[pri:1, instance:test.LoginTest@4550bb58]" started-at="2024-05-11T23:40:33 BDT" name="LoginwithInvalid2" data-provider="invaliddata" finished-at="2024-05-11T23:40:47 BDT" duration-ms="13648" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[01988812708]]>
+                <![CDATA[88812703338]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[pass34]]>
+                <![CDATA[saima34]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginwithInvalid2 -->
-        <test-method signature="LoginwithInvalid2(java.lang.String,java.lang.String)[pri:1, instance:test.LoginTest@10e31a9a]" started-at="2024-05-11T15:49:23 BDT" name="LoginwithInvalid2" data-provider="invaliddata" finished-at="2024-05-11T15:49:51 BDT" duration-ms="28301" status="PASS">
+        <test-method signature="LoginwithInvalid2(java.lang.String,java.lang.String)[pri:1, instance:test.LoginTest@4550bb58]" started-at="2024-05-11T23:40:47 BDT" name="LoginwithInvalid2" data-provider="invaliddata" finished-at="2024-05-11T23:40:58 BDT" duration-ms="11129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01644417057]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#pass34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithInvalid2 -->
+        <test-method signature="LoginwithInvalid2(java.lang.String,java.lang.String)[pri:1, instance:test.LoginTest@4550bb58]" started-at="2024-05-11T23:40:58 BDT" name="LoginwithInvalid2" data-provider="invaliddata" finished-at="2024-05-11T23:41:09 BDT" duration-ms="11084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saima34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginwithInvalid2 -->
+        <test-method signature="LoginwithInvalid2(java.lang.String,java.lang.String)[pri:1, instance:test.LoginTest@4550bb58]" started-at="2024-05-11T23:41:09 BDT" name="LoginwithInvalid2" data-provider="invaliddata" finished-at="2024-05-11T23:41:47 BDT" duration-ms="37681" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,23 +75,99 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginwithInvalid2 -->
-      </class> <!-- test.LoginTest -->
-    </test> <!-- LoginTest -->
-    <test started-at="2024-05-11T15:49:51 BDT" name="DashTest" finished-at="2024-05-11T15:50:52 BDT" duration-ms="61146">
-      <class name="test.DashboardTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:test.DashboardTest@368f2016]" started-at="2024-05-11T15:48:59 BDT" name="start" finished-at="2024-05-11T15:49:03 BDT" duration-ms="3569" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.LoginTest@4550bb58]" started-at="2024-05-11T23:41:47 BDT" name="afterClass" finished-at="2024-05-11T23:41:47 BDT" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- start -->
-        <test-method signature="Dashboard()[pri:2, instance:test.DashboardTest@368f2016]" started-at="2024-05-11T15:49:51 BDT" name="Dashboard" finished-at="2024-05-11T15:50:52 BDT" duration-ms="61142" status="PASS">
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2024-05-11T23:41:47 BDT" name="DashTest" finished-at="2024-05-11T23:42:28 BDT" duration-ms="40462">
+      <class name="test.DashboardTest">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:test.DashboardTest@5656be13]" started-at="2024-05-11T23:41:47 BDT" name="openUrl" finished-at="2024-05-11T23:41:47 BDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Dashboard()[pri:2, instance:test.DashboardTest@5656be13]" started-at="2024-05-11T23:41:47 BDT" name="Dashboard" finished-at="2024-05-11T23:42:28 BDT" duration-ms="40355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Dashboard -->
-        <test-method is-config="true" signature="close()[pri:0, instance:test.DashboardTest@368f2016]" started-at="2024-05-11T15:50:52 BDT" name="close" finished-at="2024-05-11T15:50:52 BDT" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.DashboardTest@5656be13]" started-at="2024-05-11T23:42:28 BDT" name="afterClass" finished-at="2024-05-11T23:42:28 BDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.DashboardTest -->
+    </test> <!-- DashTest -->
+    <test started-at="2024-05-11T23:42:28 BDT" name="LogTest" finished-at="2024-05-11T23:42:45 BDT" duration-ms="17205">
+      <class name="test.LogoutTest">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:test.LogoutTest@7b98f307]" started-at="2024-05-11T23:42:28 BDT" name="openUrl" finished-at="2024-05-11T23:42:28 BDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Dashboard()[pri:3, instance:test.LogoutTest@7b98f307]" started-at="2024-05-11T23:42:28 BDT" name="Dashboard" finished-at="2024-05-11T23:42:45 BDT" duration-ms="17099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dashboard -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test.LogoutTest@7b98f307]" started-at="2024-05-11T23:42:45 BDT" name="afterclass" finished-at="2024-05-11T23:42:45 BDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- test.LogoutTest -->
+    </test> <!-- LogTest -->
+    <test started-at="2024-05-11T23:42:45 BDT" name="searchtest" finished-at="2024-05-11T23:42:54 BDT" duration-ms="9088">
+      <class name="test.SearchTest">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:test.SearchTest@1bb5a082]" started-at="2024-05-11T23:42:45 BDT" name="openUrl" finished-at="2024-05-11T23:42:45 BDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Dashboard()[pri:4, instance:test.SearchTest@1bb5a082]" started-at="2024-05-11T23:42:45 BDT" name="Dashboard" finished-at="2024-05-11T23:42:54 BDT" duration-ms="8977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dashboard -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test.SearchTest@1bb5a082]" started-at="2024-05-11T23:42:54 BDT" name="afterclass" finished-at="2024-05-11T23:42:54 BDT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- test.SearchTest -->
+    </test> <!-- searchtest -->
+    <test started-at="2024-05-11T23:42:54 BDT" name="multitest" finished-at="2024-05-11T23:43:32 BDT" duration-ms="37451">
+      <class name="test.MultipleSelectionTest">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:test.MultipleSelectionTest@515c6049]" started-at="2024-05-11T23:42:54 BDT" name="openUrl" finished-at="2024-05-11T23:42:54 BDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Dashboard()[pri:5, instance:test.MultipleSelectionTest@515c6049]" started-at="2024-05-11T23:42:54 BDT" name="Dashboard" finished-at="2024-05-11T23:43:31 BDT" duration-ms="37292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dashboard -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test.MultipleSelectionTest@515c6049]" started-at="2024-05-11T23:43:31 BDT" name="afterclass" finished-at="2024-05-11T23:43:32 BDT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- test.MultipleSelectionTest -->
+    </test> <!-- multitest -->
+    <test started-at="2024-05-11T23:43:32 BDT" name="terminate" finished-at="2024-05-11T23:43:40 BDT" duration-ms="8900">
+      <class name="test.TerminateTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:test.TerminateTest@618b19ad]" started-at="2024-05-11T23:40:18 BDT" name="start" finished-at="2024-05-11T23:40:19 BDT" duration-ms="1478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:test.TerminateTest@618b19ad]" started-at="2024-05-11T23:43:32 BDT" name="openUrl" finished-at="2024-05-11T23:43:32 BDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="Dashboard()[pri:6, instance:test.TerminateTest@618b19ad]" started-at="2024-05-11T23:43:32 BDT" name="Dashboard" finished-at="2024-05-11T23:43:40 BDT" duration-ms="8790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dashboard -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:test.TerminateTest@618b19ad]" started-at="2024-05-11T23:43:40 BDT" name="afterclass" finished-at="2024-05-11T23:43:40 BDT" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="close()[pri:0, instance:test.TerminateTest@618b19ad]" started-at="2024-05-11T23:43:40 BDT" name="close" finished-at="2024-05-11T23:43:41 BDT" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- test.DashboardTest -->
-    </test> <!-- DashTest -->
+      </class> <!-- test.TerminateTest -->
+    </test> <!-- terminate -->
   </suite> <!-- Suite -->
 </testng-results>

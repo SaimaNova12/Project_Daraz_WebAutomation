@@ -11,4 +11,24 @@
       <class name="test.DashboardTest"/>
     </classes>
   </test> 
+    <test name="LogTest">
+    <classes>
+      <class name="test.LogoutTest"/>
+    </classes>
+  </test>
+    <test name="searchtest">
+    <classes>
+      <class name="test.SearchTest"/>
+    </classes>
+  </test>
+    <test name="multitest">
+    <classes>
+      <class name="test.MultipleSelectionTest"/>
+    </classes>
+  </test>
+      <test name="terminate">
+    <classes>
+      <class name="test.TerminateTest"/>
+    </classes>
+  </test>
 </suite> 
