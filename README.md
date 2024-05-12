@@ -13,7 +13,7 @@
 ##### -> Back to Home Page -> Click to "Login" 
 ##### -> Put username & password to login 
 ##### -> Complete Login 
-##### -> Search Item(multiple data--Valid Invalid)
+##### -> Search Item
 ##### -> Select multiple Item(at leart 2)
 ##### -> Add to Cart
 ##### -> Back to Home Page 
