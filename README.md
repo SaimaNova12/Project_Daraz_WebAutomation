@@ -34,7 +34,7 @@
 ![6](https://github.com/SaimaNova12/Project_JMeter-1/assets/76209488/d13cb5b3-4473-41f2-bce1-cdc7d53b1660)
 ##### MULTIPLESELECTION TEST 1
 ![7](https://github.com/SaimaNova12/Project_JMeter-1/assets/76209488/c9dff9ea-0ae9-4071-9458-2d5890a28364)
-##### MULTIPLESELECTION TEST 1
+##### MULTIPLESELECTION TEST 2
 ![8](https://github.com/SaimaNova12/Project_JMeter-1/assets/76209488/5cb6311c-ec5a-4e50-94e3-5419f3a22999)
 ##### TERMINATE TEST 
 ![jpeg](https://github.com/SaimaNova12/Project_JMeter-1/assets/76209488/ef935b80-057f-430e-ba4f-8e5eeb16b3f9)
