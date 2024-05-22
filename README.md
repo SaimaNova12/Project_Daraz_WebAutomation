@@ -19,7 +19,7 @@
 ##### -> Back to Home Page 
 ##### -> Logout
 
-###  ScreenShots of the executed srcipt
+###  ScreenShots of the executed srcipts
 ##### LOGIN TEST 
 ![WhatsApp Image 2024-05-12 at 12 31 56 AM](https://github.com/SaimaNova12/Project_JMeter-1/assets/76209488/f9f21b44-b659-47d5-8882-acfaa94d036a)
 ##### DASHBOARD TEST 1
